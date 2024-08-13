@@ -5,6 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.hibernate.validator.constraints.UniqueElements;
+
 @Entity
 public class User {
 
@@ -16,7 +18,15 @@ public class User {
 	private String mobile;
 	private String email;
 	private String password;
+	//@UniqueElements
+	private String carNumber;
 	
+	public String getCarNumber() {
+		return carNumber;
+	}
+	public void setCarNumber(String carNumber) {
+		this.carNumber = carNumber;
+	}
 	public String getPassword() {
 		return password;
 	}

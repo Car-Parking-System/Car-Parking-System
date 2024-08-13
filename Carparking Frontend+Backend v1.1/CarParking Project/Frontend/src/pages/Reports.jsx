@@ -21,6 +21,7 @@ export default function Reports() {
             <th>Id</th>
             <th>Booking Date</th>
             <th>User Name</th>
+            <th>Car Number</th>
             <th>No of Space book</th>
             <th>Parking Date</th>
             <th>Parking Price</th>
@@ -31,6 +32,7 @@ export default function Reports() {
                 <td>{x?.bookingId}</td>
                 <td>{x?.bookDate}</td>
                 <td>{x?.user?.userName}</td>
+                <td>{x.user?.carNumber}</td>
                 <td>{x?.noOfSeats}</td>
                 <td>{x?.showDate}</td>
                 <td>{x?.cost}</td>

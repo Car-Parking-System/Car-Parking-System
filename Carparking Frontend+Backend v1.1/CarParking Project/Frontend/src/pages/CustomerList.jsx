@@ -17,6 +17,7 @@ export default function CustomersList() {
           <thead>
             <th>Id</th>
             <th>Name</th>
+            <th>Car Number</th>
             <th>Phone</th>
             <th>Email Id</th>
             <th>Status</th>
@@ -28,6 +29,7 @@ export default function CustomersList() {
                 <tr key={x.userid}>
                   <td>{x.userid}</td>
                   <td>{x.userName}</td>
+                  <td>{x.carNumber}</td>
                   <td>{x?.mobile}</td>
                   <td>{x.email}</td>
                   <td>{x.active ? 'Active' : 'Active'}</td>

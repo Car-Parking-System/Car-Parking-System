@@ -34,7 +34,11 @@ export default function UserProfile() {
             <tr>
               <th>Email Id</th>
               <th>{data?.email}</th>
-            </tr>            
+            </tr>    
+            <tr>
+              <th>car number</th>
+              <th>{data?.carNumber}</th>
+            </tr>          
           </thead>
         </table>
       </div>
