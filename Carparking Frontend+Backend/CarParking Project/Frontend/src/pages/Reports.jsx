@@ -25,6 +25,7 @@ export default function Reports() {
             <th>No of Space book</th>
             <th>Parking Date</th>
             <th>Parking Price</th>
+            
           </thead>
           <tbody>
             {data.map((x) => (

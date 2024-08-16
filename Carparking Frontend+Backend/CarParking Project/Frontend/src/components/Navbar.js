@@ -17,7 +17,7 @@ export default function Navbar(){
     return(
 
     <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-gradient text-black fw-bold opacity-75 border-bottom border-white" style={{background:'blue'}}>
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary text-black fw-bold opacity-75 border-bottom border-white" style={{background:'grey     '}}>
             <div className="container-fluid">
            <Link className="navbar-brand" to="#">
            <img src="https://w7.pngwing.com/pngs/781/441/png-transparent-car-park-smart-parking-computer-icons-car-text-car-black.png" alt="logo" height={30}/>

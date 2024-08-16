@@ -19,7 +19,7 @@ export default function Footer() {
         ><i className="fa fa-google"></i
         ></a>
 
-        <a className="btn btn-outline-light btn-floating m-2" href="https://www.instagram.com/_kussh" type="button"
+        <a className="btn btn-outline-light btn-floating m-2" href="https://www.instagram.com/" type="button"
         ><i className="fa fa-instagram"></i
         ></a>
 
@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
       <div>
         <h2>Car Parking Booking</h2>
-        <p>Contact No: +918007592194    &ensp; &ensp; &ensp;    Gmail: carparking@gmail.com</p>
+        <p>Contact No: +917028753443    &ensp; &ensp; &ensp;    Gmail: carparking@gmail.com</p>
 
       </div>
 

@@ -9,7 +9,7 @@ body {
   justify-content: center;
   padding: 10px;
   align-items: center;
-  background: linear-gradient(135deg, #add8e6, #0892d0);
+  background: linear-gradient(135deg, #ffffff, #476ad3b3);
 }
 .container {
   max-width: 700px;
@@ -134,3 +134,4 @@ form .button input:hover {
     width: 0;
   }
 }
+  
